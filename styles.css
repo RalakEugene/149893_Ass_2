@@ -1,0 +1,76 @@
+/* Universal Selector */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: #3D424A;
+    font-size: 20px;
+}
+
+body{
+    background-color: #FEAE49;
+}
+
+.wrapper{
+    display: flex;
+    position: relative;
+}
+
+/* Navigation stylings */
+/* class selector - ( .navbar ) */ 
+.wrapper .navbar{
+    position: fixed;
+    background-color:#57BEE6;
+    width: 200px;
+    height: 100%;
+    padding: 30px 0;
+}
+
+.wrapper .navbar h2{
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.wrapper .navbar ul li{
+    padding: 15px;
+    color:#3D424A;
+    text-transform: uppercase;
+    border-top: 1px solid #3D424A;
+    border-bottom: 1px solid #3D424A;
+}
+
+.wrapper .navbar ul li:hover{
+    background-color: #FEAE49;
+    color: #E6E5DE;
+    transition: all 0.3s;
+}
+/* tag selector - <ul> tag */
+ul a{
+    display: block;
+    text-decoration: none;
+}
+/* End of navigation stylings */
+
+.wrapper .main-content{
+    width: 100%;
+    margin-left: 200px;
+}
+
+.wrapper .main-content .header{
+    padding: 30px;
+    background-color: #3D424A;
+    color: #E6E5DE;
+}
+
+.wrapper .main-content .info{
+    margin: 20px;
+    color: black;
+    line-height: 25px;
+}
+
+.wrapper .main-content .info div{
+    margin-bottom: 20px;
+}
